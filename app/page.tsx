@@ -152,7 +152,7 @@ export default function Home() {
           {items.map((item) => (
             <div key={item._id}>
               <li>{item.name}</li>
-              <div className="flex gap-2">
+              <div className="flex gap-5">
                 <button
                   onClick={() => handleUpdate(item._id, item.name)}
                   className="text-yellow-500"
